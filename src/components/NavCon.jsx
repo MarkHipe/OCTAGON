@@ -126,6 +126,7 @@ const NavCon = ({ active, inView, mobilepop, currActive, setmobile }) => {
 };
 const Con = styled.div`
   margin-top: 1.5rem;
+  padding-top: 10px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -227,7 +228,8 @@ const Con = styled.div`
     @media (max-width: 768px) {
     }
     & .logo {
-      height: 40px;
+      margin-top: 10px;
+      height: 70px;
       /* width: 80px; */
       /* border-radius: 100%; */
       margin-left: 2rem;
@@ -290,8 +292,8 @@ const Con = styled.div`
     }
   }
   & .logo {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
 
     margin-left: 2rem;
   }

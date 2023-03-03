@@ -124,6 +124,8 @@ const MainNav = ({ currActive, active, inView, mobilepop, setmobile }) => {
 const Con = styled.div`
   //margin-top: 1.5rem;
   width: 100%;
+  padding-top: 10px;
+
   display: flex;
   justify-content: center;
   position: relative;
