@@ -92,7 +92,7 @@ const NavCon = ({ active, inView, mobilepop, currActive, setmobile }) => {
               setmobile("open");
             }}
           >
-            Our Fleet
+            Our Projects
           </nav>
           <nav
             className={currActive === "careers" ? "navs active" : "navs"}

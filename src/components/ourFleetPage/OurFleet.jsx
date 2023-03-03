@@ -56,7 +56,7 @@ const OurFleet = () => {
             Our Fleet
           </Link>
         </div>
-        <h1>Our Fleet</h1>
+        <h1>Our Projects</h1>
       </div>
       <div className="wrapper">
         <div className="details">

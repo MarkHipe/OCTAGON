@@ -165,6 +165,7 @@ const Con = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 3rem;
     & h1 {
       font-size: 1.2rem;
       text-align: center;
@@ -172,7 +173,7 @@ const Con = styled.div`
     }
     & .cardWrapper {
       margin-top: 3rem;
-      max-width: 620px;
+      max-width: 720px;
       margin: auto 0;
       display: flex;
       /* justify-content: center; */
@@ -180,9 +181,11 @@ const Con = styled.div`
       flex-wrap: wrap;
       & .card {
         position: relative;
-        border: 1px solid #eee;
+        border: 1px solid #5d5d5d;
+        background-color: #3f3e3e9e;
         width: 300px;
         margin: 1rem auto;
+        padding: 1rem;
         & img {
           height: 100px;
           width: 100%;
@@ -209,7 +212,7 @@ const Con = styled.div`
         & .label {
           padding: 0 1rem;
           & h6 {
-            color: #000000;
+            color: #e8e8e8;
             font-weight: 600;
             font-size: 16px;
             margin: 10px auto;
@@ -217,10 +220,10 @@ const Con = styled.div`
           & h2 {
             font-weight: 400;
             font-size: 13px;
-            color: #5e5e5e;
+            color: #cfcfcf;
           }
           & p {
-            color: #5e5e5e;
+            color: #a5a5a5;
             font-size: 14px;
             line-height: 25px;
           }

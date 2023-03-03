@@ -272,7 +272,7 @@ const Con = styled.div`
       }
       & h5 {
         font-size: 13px;
-        color: #bababa;
+        color: #6b6b6b;
         margin: 1rem;
         font-weight: 100;
       }
@@ -328,7 +328,8 @@ const Con = styled.div`
         }
         & .img {
           width: 100%;
-          background-color: #9f9f9f;
+          background-color:transparent;
+          padding: 1rem;
           & img {
             height: 90px;
           }
